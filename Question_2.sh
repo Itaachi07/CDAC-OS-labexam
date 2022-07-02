@@ -35,5 +35,8 @@ echo 5. EXIT
 		echo -n The number of characters in $file are:
 			wc -m $file
 			;;	
-	esac
+		5) echo Exiting . . 
+			exit
+			;;
+		esac
 

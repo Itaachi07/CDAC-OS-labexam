@@ -8,4 +8,20 @@ echo 1. ACCESS RIGHTS
 echo 2. COUNT OF LINES
 echo 3. PRINT LINES WITH .
 echo 4. CHARACTER COUNT
+echo 5. EXIT
 
+while :
+do
+	echo Enter your choice
+
+	read choice
+
+	case $choice in
+
+		1) echo Enter file name
+
+			;;
+		2) echo Number of files in current directly 
+			
+			;;
+		3) 

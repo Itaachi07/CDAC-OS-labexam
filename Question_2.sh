@@ -28,6 +28,8 @@ echo 5. EXIT
 			;;
 		4) echo enter the file name
 		read file
-		let $file=filepath
-			wc -c < $filepath
+		echo -n The number of characters in $file are:
+			wc -m $file
 			;;	
+	esac
+

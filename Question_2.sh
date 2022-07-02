@@ -24,7 +24,11 @@ echo 5. EXIT
 		2) echo Number of files in current directly 
 			
 			;;
-		3) 
+		3) echo Enter the file name 
+			read file
+			echo The lines with .
+		       grep "\.$" $file	
+		
 			;;
 		4) echo enter the file name
 		read file

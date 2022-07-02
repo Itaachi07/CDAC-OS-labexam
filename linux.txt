@@ -1,0 +1,6 @@
+linux is opean source 
+in linux everything is file
+keyboard is file
+monitor is file.
+file have spaces
+processes have lives.

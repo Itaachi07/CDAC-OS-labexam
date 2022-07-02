@@ -5,7 +5,7 @@
 echo Select choice 
 
 echo 1. ACCESS RIGHTS
-echo 2. COUNT OF LINES
+echo 2. COUNT OF FILES
 echo 3. PRINT LINES WITH .
 echo 4. CHARACTER COUNT
 echo 5. EXIT
@@ -22,7 +22,7 @@ echo 5. EXIT
 
 			;;
 		2) echo Number of files in current directly 
-			
+			ls | wc -l
 			;;
 		3) echo Enter the file name 
 			read file

@@ -1,4 +1,4 @@
-linux is opean source 
+linux is open source
 in linux everything is file
 keyboard is file
 monitor is file.

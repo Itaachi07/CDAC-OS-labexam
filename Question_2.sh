@@ -10,8 +10,8 @@ echo 3. PRINT LINES WITH .
 echo 4. CHARACTER COUNT
 echo 5. EXIT
 
-while :
-do
+#while :
+#do
 	echo Enter your choice
 
 	read choice
@@ -25,3 +25,9 @@ do
 			
 			;;
 		3) 
+			;;
+		4) echo enter the file name
+		read file
+		let $file=filepath
+			wc -c < $filepath
+			;;	

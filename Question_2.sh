@@ -18,8 +18,9 @@ echo 5. EXIT
 
 	case $choice in
 
-		1) echo Enter file name
-
+		1) echo Enter file name to see the access rights
+			read filename
+			ls -lh $filename
 			;;
 		2) echo Number of files in current directly 
 			ls | wc -l
